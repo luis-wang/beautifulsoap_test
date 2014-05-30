@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 
 html_doc = """
-<html><head><title>The Dormouse's story王旭东</title></head>
+<html><head><title>The Dormouse's story</title></head>
 <body>
 <p class="title2"><b>The Dormouse's story</b></p>
 <p class="title"><b>The Dormouse's story</b></p>
@@ -118,8 +118,8 @@ for link in soup.find_all('a'):
     print '\n\n'
     
 text2="""
-<span class="next">下一篇:<a href=/html/photo03/18931.html>1丰满人妻 【32P】</a></span>
-<span class="next">下一篇:<a href=/html/photo03/18931.html>2丰满人妻 【32P】</a></span>
+<span class="next">下一篇:<a href=/html/photo03/18931.html>【32P】</a></span>
+<span class="next">下一篇:<a href=/html/photo03/18931.html> 【32P】</a></span>
 <span class="nexts">下一篇:<a href=/html/photo03/18931.html>2rrrrr</a></span>
 <span class="nexts">下一篇:<a href=/html/photo03/18931.html>3rrrrr</a></span>
 
