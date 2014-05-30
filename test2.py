@@ -6,7 +6,7 @@
 from urllib import quote,unquote
 
 
-s = r'王旭东abc'
+s = r'新衣abc'
 q = quote(s)
 print type(q), q
 
